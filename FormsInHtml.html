@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms In HTML:</h1>
+    <form action="/" method="post">
+        <table>
+            <tr>
+                <td><label for="uname">User Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="uname" name="uname" placeholder="niharika"/></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="pass" name="pass" maxlength="9"/></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" name="email" required/></td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Quantity</label></td>
+                <td>:</td>
+                <td><input type="number" id="quantity" name="quantity"/></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Mobile No</label></td>
+                <td>:</td>
+                <td><input type="tel" id="phone" name="phone" required/></td>
+            </tr>
+            <tr>
+                <td><label for="bday">Birthday</label></td>
+                <td>:</td>
+                <td><input type="date" id="bday" name="bday"/></td>
+            </tr>
+            <tr>
+                <td><label for="course">Courses</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="dbms" name="course"/>
+                    <label for="dbms">DBMS</label>
+                    <input type="checkbox" id="os" name="course"/>
+                    <label for="os">OS</label>
+                </td>
+               
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="male" name="gender"/>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender"/>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="branch">Branch</label></td>
+                <td>:</td>
+                <td>
+                    <select name="branch" id="branch">
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="ece">ECE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <input type="reset"/>
+                    <input type="submit"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
